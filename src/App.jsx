@@ -9,7 +9,7 @@ function App() {
   
 
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename="/Appointment-Calender" >
     <Routes>
       <Route path="/" element={<Landing />} />
       <Route path="Calender" element={<Calender/>} />
